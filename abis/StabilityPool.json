@@ -1,0 +1,1261 @@
+{
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "P",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "PFWETHToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract PercentFinanceWETH"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "SCALE_FACTOR",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "activePool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IActivePool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "borrowerOperations",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IBorrowerOperations"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "communityIssuance",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ICommunityIssuance"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "currentEpoch",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "currentScale",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "defaultPool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IDefaultPool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "depositPFWETH",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "depositSnapshots",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "S",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "P",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "G",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "scale",
+          "type": "uint128",
+          "internalType": "uint128"
+        },
+        {
+          "name": "epoch",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "deposits",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "frontEndTag",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "epochToScaleToG",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        },
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "epochToScaleToSum",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        },
+        {
+          "name": "",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "frontEndSnapshots",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "S",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "P",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "G",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "scale",
+          "type": "uint128",
+          "internalType": "uint128"
+        },
+        {
+          "name": "epoch",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "frontEndStakes",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "frontEnds",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "kickbackRate",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "registered",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getCompoundedFrontEndStake",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getCompoundedPFUSDDeposit",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getDepositorPEFIGain",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getDepositorPFWETHGain",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getEntireSystemColl",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "entireSystemColl",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getEntireSystemDebt",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "entireSystemDebt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getFrontEndPEFIGain",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPFWETHCollateral",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTotalPFUSDDeposits",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lastETHError_Offset",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lastPEFIError",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lastPFUSDLossError_Offset",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "offset",
+      "inputs": [
+        {
+          "name": "_debtToOffset",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_collToAdd",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pfusdToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPFUSDToken"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "priceFeed",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPriceFeed"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "provideToSP",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_frontEndTag",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "registerFrontEnd",
+      "inputs": [
+        {
+          "name": "_kickbackRate",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "setAddresses",
+      "inputs": [
+        {
+          "name": "_borrowerOperationsAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_troveManagerAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_activePoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_pfusdTokenAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_sortedTrovesAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_priceFeedAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_communityIssuanceAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_PFWETHToken",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "sortedTroves",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ISortedTroves"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "troveManager",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ITroveManager"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "withdrawFromSP",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "withdrawPFWETHGainToTrove",
+      "inputs": [
+        {
+          "name": "_upperHint",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_lowerHint",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "DepositSnapshotUpdated",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_P",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_S",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_G",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x2d6cc0bcdf72c9486f6451bde6b80f44066f4558f77f44dbfedbe7d8b295225a"
+    },
+    {
+      "type": "event",
+      "name": "EpochUpdated",
+      "inputs": [
+        {
+          "name": "_currentEpoch",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xb50f0f59e7cb5b421dc77581c3a9919e3806e076e5fa78a874c3f120cb7d874d"
+    },
+    {
+      "type": "event",
+      "name": "FrontEndRegistered",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_kickbackRate",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x19bc932fb9e16a8b5a1e41be9f4c2de59d5ddd7567b8b81405f532ca00a9880e"
+    },
+    {
+      "type": "event",
+      "name": "FrontEndSnapshotUpdated",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_P",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_G",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xbb1322f85cc7cc8bac4e172a5bc5dcc0c1959007f9a030032abf9258205f0e45"
+    },
+    {
+      "type": "event",
+      "name": "FrontEndStakeChanged",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_newFrontEndStake",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x99920012339b5a3368d3a04b8606ce412c46ed92b7dcd8602d41fc8862cb8f25"
+    },
+    {
+      "type": "event",
+      "name": "FrontEndTagSet",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x094c08e96a8890877a8390b4f967180a7507ad8622244d05fcd0f9f8e086564e"
+    },
+    {
+      "type": "event",
+      "name": "G_Updated",
+      "inputs": [
+        {
+          "name": "_G",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_epoch",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        },
+        {
+          "name": "_scale",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x2d6127771b164a9cc8827d24b5955db2a77e7a81dac389107ebb8bce9fb64968"
+    },
+    {
+      "type": "event",
+      "name": "OwnershipTransferred",
+      "inputs": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    {
+      "type": "event",
+      "name": "PEFIPaidToDepositor",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_PEFI",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x2fdd63001631600c6ce61c456081fe9136ef5b94b817ec8e3e16ef5cb148a0a5"
+    },
+    {
+      "type": "event",
+      "name": "PEFIPaidToFrontEnd",
+      "inputs": [
+        {
+          "name": "_frontEnd",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_PEFI",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xadf2736b92102235cb6cf0a01c8617d8d224a6d31ba6095d2c8a2550edf6c6dd"
+    },
+    {
+      "type": "event",
+      "name": "PFWETHGainWithdrawn",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_ETH",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_PFUSDLoss",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x221376ed14e11f863ecd9fc1ebb8afa431b753e98065ff0ea877607be275cac0"
+    },
+    {
+      "type": "event",
+      "name": "PFWETHSent",
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc4697a149f68b6d87f8ed1f78fc951e726f8be2920f82a877bdd656e4ac0cdf8"
+    },
+    {
+      "type": "event",
+      "name": "P_Updated",
+      "inputs": [
+        {
+          "name": "_P",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc1a9618cb59ebca77cbdbc2949f126823c407ff13edb285fd0262519a9c18e8c"
+    },
+    {
+      "type": "event",
+      "name": "S_Updated",
+      "inputs": [
+        {
+          "name": "_S",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_epoch",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        },
+        {
+          "name": "_scale",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xe12e2cd2c9afa8069203ca07e7eff1edce4a075686d0736a8e7e0d593597b207"
+    },
+    {
+      "type": "event",
+      "name": "ScaleUpdated",
+      "inputs": [
+        {
+          "name": "_currentScale",
+          "type": "uint128",
+          "indexed": false,
+          "internalType": "uint128"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x1f9dfc70cd666adb18a39d60a797518f7b4febf4b6e24ef37d44f6e1e7219fbe"
+    },
+    {
+      "type": "event",
+      "name": "StabilityPoolPFUSDBalanceUpdated",
+      "inputs": [
+        {
+          "name": "_newBalance",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xa5bf9fddfc2fe9fd41d20f466244bd162bbbbe0910fd398be404baa1cc7b16ba"
+    },
+    {
+      "type": "event",
+      "name": "StabilityPoolPFWETHBalanceUpdated",
+      "inputs": [
+        {
+          "name": "_newBalance",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x387bc2f65b364d9b2044cea83df61fdbea5546b306d0c03356188afbd81e34dd"
+    },
+    {
+      "type": "event",
+      "name": "UserDepositChanged",
+      "inputs": [
+        {
+          "name": "_depositor",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_newDeposit",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xbce78369dccab09eec1986f4d409ab09ffbb47d65423e5148fcf98411c5111c9"
+    },
+    {
+      "type": "error",
+      "name": "AccountCannotBeZeroAddress",
+      "inputs": [],
+      "signature": "0x6847bb66"
+    },
+    {
+      "type": "error",
+      "name": "AccountCodeSizeCannotBeZero",
+      "inputs": [],
+      "signature": "0xeaf4b550"
+    },
+    {
+      "type": "error",
+      "name": "FeeExceededProvidedMaximum",
+      "inputs": [],
+      "signature": "0x798080d6"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_NewOwnerCannotBeAddressZero",
+      "inputs": [],
+      "signature": "0x7b30466f"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_SenderIsNotOwner",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "signature": "0x37c14b45"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_AmountMustBeNonZero",
+      "inputs": [],
+      "signature": "0x34029017"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_CallerIsNotActivePool",
+      "inputs": [],
+      "signature": "0x91b48bcc"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_CallerIsNotTroveManager",
+      "inputs": [],
+      "signature": "0x4a6ae916"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_CallerMustHaveActiveTroveToWithdrawETHGain",
+      "inputs": [],
+      "signature": "0x95ad21fb"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_CallerMustHaveNonZeroETHGain",
+      "inputs": [],
+      "signature": "0x7d9a103e"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_CannotWithdrawWhileThereAreTrovesWithICRltMCR",
+      "inputs": [],
+      "signature": "0xdcedd484"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_KickbackRateMustBeInRange0to1",
+      "inputs": [],
+      "signature": "0xc7c0e48d"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_MustNotAlreadyBeRegisteredFrontend",
+      "inputs": [],
+      "signature": "0xfb253843"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_TagMustBeRegisteredFrontendOrZeroAddress",
+      "inputs": [],
+      "signature": "0x46d1c38a"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_UserMustHaveNoDeposit",
+      "inputs": [],
+      "signature": "0xf38c64ef"
+    },
+    {
+      "type": "error",
+      "name": "StabilityPool_UserMustHaveNonZeroDeposit",
+      "inputs": [],
+      "signature": "0x09020402"
+    },
+    {
+      "type": "error",
+      "name": "SubtractionOverflow",
+      "inputs": [],
+      "signature": "0x1880a196"
+    }
+  ],
+  "methodIdentifiers": {
+    "P()": "8b8fbd92",
+    "PFWETHToken()": "a5250e8d",
+    "SCALE_FACTOR()": "ce4b5bbe",
+    "activePool()": "7f7dde4a",
+    "borrowerOperations()": "77553ad4",
+    "communityIssuance()": "95fb16bb",
+    "currentEpoch()": "76671808",
+    "currentScale()": "a4e59ac8",
+    "defaultPool()": "3cc74225",
+    "depositPFWETH(uint256)": "1ca7ac9e",
+    "depositSnapshots(address)": "86da0824",
+    "deposits(address)": "fc7e286d",
+    "epochToScaleToG(uint128,uint128)": "82e0a574",
+    "epochToScaleToSum(uint128,uint128)": "28a0a04d",
+    "frontEndSnapshots(address)": "16b9d3c5",
+    "frontEndStakes(address)": "5d2de642",
+    "frontEnds(address)": "a7bfff97",
+    "getCompoundedFrontEndStake(address)": "df9cd84f",
+    "getCompoundedPFUSDDeposit(address)": "16928b1f",
+    "getDepositorPEFIGain(address)": "c2df40bb",
+    "getDepositorPFWETHGain(address)": "c84a3005",
+    "getEntireSystemColl()": "887105d3",
+    "getEntireSystemDebt()": "795d26c3",
+    "getFrontEndPEFIGain(address)": "aba87e4c",
+    "getPFWETHCollateral()": "2cd5b75a",
+    "getTotalPFUSDDeposits()": "50a11ca8",
+    "lastETHError_Offset()": "d7fb0443",
+    "lastPEFIError()": "165d2ff2",
+    "lastPFUSDLossError_Offset()": "9496bf6b",
+    "offset(uint256,uint256)": "335525ad",
+    "owner()": "8da5cb5b",
+    "pfusdToken()": "000479bb",
+    "priceFeed()": "741bef1a",
+    "provideToSP(uint256,address)": "5f788d65",
+    "registerFrontEnd(uint256)": "556be101",
+    "renounceOwnership()": "715018a6",
+    "setAddresses(address,address,address,address,address,address,address,address)": "d733cfd0",
+    "sortedTroves()": "ae918754",
+    "transferOwnership(address)": "f2fde38b",
+    "troveManager()": "3d83908a",
+    "withdrawFromSP(uint256)": "2e54bf95",
+    "withdrawPFWETHGainToTrove(address,address)": "e670c706"
+  }
+}

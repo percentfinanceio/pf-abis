@@ -1,0 +1,573 @@
+{
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "F_PFUSD",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "F_PFWETH",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "PFWETHToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract PercentFinanceWETH"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "activePoolAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "borrowerOperationsAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPendingPFUSDGain",
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPendingPFWETHGain",
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "increaseF_PFUSD",
+      "inputs": [
+        {
+          "name": "_PFUSDFee",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "increaseF_PFWETH",
+      "inputs": [
+        {
+          "name": "_PFWETHFee",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pefiToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPEFIToken"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pfusdToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPFUSDToken"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "setAddresses",
+      "inputs": [
+        {
+          "name": "_pefiTokenAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_pfusdTokenAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_troveManagerAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_borrowerOperationsAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_activePoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_PFWETHToken",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "snapshots",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "F_PFWETH_Snapshot",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "F_PFUSD_Snapshot",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "stake",
+      "inputs": [
+        {
+          "name": "_PEFIamount",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "stakes",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "totalPEFIStaked",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "troveManagerAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "unstake",
+      "inputs": [
+        {
+          "name": "_PEFIamount",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "F_PFUSDUpdated",
+      "inputs": [
+        {
+          "name": "_F_PFUSD",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x72156fe3cfe85ec7de024e42bd51bb492aedff041fd45ac0ca0b0a46fb39229e"
+    },
+    {
+      "type": "event",
+      "name": "F_PFWETHUpdated",
+      "inputs": [
+        {
+          "name": "_F_PFWETH",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xb2fbea25616f2222e77c6e9a4cfa012c3f62025517d64f1b41599d42b2fca0a7"
+    },
+    {
+      "type": "event",
+      "name": "OwnershipTransferred",
+      "inputs": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    {
+      "type": "event",
+      "name": "PFWETHSent",
+      "inputs": [
+        {
+          "name": "_account",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc4697a149f68b6d87f8ed1f78fc951e726f8be2920f82a877bdd656e4ac0cdf8"
+    },
+    {
+      "type": "event",
+      "name": "StakeChanged",
+      "inputs": [
+        {
+          "name": "staker",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newStake",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x39df0e5286a3ef2f42a0bf52f32cfe2c58e5b0405f47fe512f2c2439e4cfe204"
+    },
+    {
+      "type": "event",
+      "name": "StakerSnapshotsUpdated",
+      "inputs": [
+        {
+          "name": "_staker",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        },
+        {
+          "name": "_F_PFWETH",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_F_PFUSD",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x6b5cf27595af4428271524e0a5abd2b63f6fee1a61e31970490f5a10e257a1cd"
+    },
+    {
+      "type": "event",
+      "name": "StakingGainsWithdrawn",
+      "inputs": [
+        {
+          "name": "staker",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "PFUSDGain",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "ETHGain",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xf744d34ca1cb25acfa4180df5f09a67306107110a9f4b6ed99bb3be259738215"
+    },
+    {
+      "type": "event",
+      "name": "TotalPEFIStakedUpdated",
+      "inputs": [
+        {
+          "name": "_totalPEFIStaked",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x17216a7d65961dac7e7152751cfa617361acedab326bda6ca12214eff0bba01f"
+    },
+    {
+      "type": "error",
+      "name": "AccountCannotBeZeroAddress",
+      "inputs": [],
+      "signature": "0x6847bb66"
+    },
+    {
+      "type": "error",
+      "name": "AccountCodeSizeCannotBeZero",
+      "inputs": [],
+      "signature": "0xeaf4b550"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_NewOwnerCannotBeAddressZero",
+      "inputs": [],
+      "signature": "0x7b30466f"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_SenderIsNotOwner",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "signature": "0x37c14b45"
+    },
+    {
+      "type": "error",
+      "name": "PEFIStaking_AmountMustBeNonZero",
+      "inputs": [],
+      "signature": "0xd7982105"
+    },
+    {
+      "type": "error",
+      "name": "PEFIStaking_CallerIsNotActivePool",
+      "inputs": [],
+      "signature": "0xc9bb43ed"
+    },
+    {
+      "type": "error",
+      "name": "PEFIStaking_CallerIsNotBorrowerOps",
+      "inputs": [],
+      "signature": "0x2fecb5b6"
+    },
+    {
+      "type": "error",
+      "name": "PEFIStaking_CallerIsNotTroveManager",
+      "inputs": [],
+      "signature": "0xe43c68f7"
+    },
+    {
+      "type": "error",
+      "name": "PEFIStaking_UserMustHaveNonZeroStake",
+      "inputs": [],
+      "signature": "0x722526f2"
+    }
+  ],
+  "methodIdentifiers": {
+    "F_PFUSD()": "b760c4a1",
+    "F_PFWETH()": "ec996fcf",
+    "PFWETHToken()": "a5250e8d",
+    "activePoolAddress()": "b08bc722",
+    "borrowerOperationsAddress()": "b7f8cf9b",
+    "getPendingPFUSDGain(address)": "5771031a",
+    "getPendingPFWETHGain(address)": "57a8bdba",
+    "increaseF_PFUSD(uint256)": "2dba937e",
+    "increaseF_PFWETH(uint256)": "7e7b3102",
+    "owner()": "8da5cb5b",
+    "pefiToken()": "d6549b68",
+    "pfusdToken()": "000479bb",
+    "renounceOwnership()": "715018a6",
+    "setAddresses(address,address,address,address,address,address)": "6cfb6bf9",
+    "snapshots(address)": "34b3081f",
+    "stake(uint256)": "a694fc3a",
+    "stakes(address)": "16934fc4",
+    "totalPEFIStaked()": "da4951c9",
+    "transferOwnership(address)": "f2fde38b",
+    "troveManagerAddress()": "5a4d28bb",
+    "unstake(uint256)": "2e17de78"
+  }
+}

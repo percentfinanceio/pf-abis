@@ -1,0 +1,1626 @@
+{
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "L_PFUSDDebt",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "L_PFWETH",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "PFWETHToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract PercentFinanceWETH"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "activePool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IActivePool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "addTroveOwnerToArray",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "index",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "applyPendingRewards",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "baseRate",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "batchLiquidateTroves",
+      "inputs": [
+        {
+          "name": "_troveArray",
+          "type": "address[]",
+          "internalType": "address[]"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "borrowerOperationsAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "checkRecoveryMode",
+      "inputs": [
+        {
+          "name": "_price",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "closeTrove",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "collSurplusPool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ICollSurplusPool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "decayBaseRateFromBorrowing",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "decreaseTroveColl",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_collDecrease",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "decreaseTroveDebt",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_debtDecrease",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "defaultPool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IDefaultPool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "gasPoolAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getBorrowingFee",
+      "inputs": [
+        {
+          "name": "_PFUSDDebt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getBorrowingFeeWithDecay",
+      "inputs": [
+        {
+          "name": "_PFUSDDebt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getBorrowingRate",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getBorrowingRateWithDecay",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getCurrentICR",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_price",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getEntireDebtAndColl",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "debt",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "coll",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "pendingPFUSDDebtReward",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "pendingPFWETHReward",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getEntireSystemColl",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "entireSystemColl",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getEntireSystemDebt",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "entireSystemDebt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getNominalICR",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPendingPFUSDDebtReward",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPendingPFWETHReward",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getRedemptionFeeWithDecay",
+      "inputs": [
+        {
+          "name": "_PFWETHDrawn",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getRedemptionRate",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getRedemptionRateWithDecay",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTCR",
+      "inputs": [
+        {
+          "name": "_price",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveColl",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveDebt",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveFromTroveOwnersArray",
+      "inputs": [
+        {
+          "name": "_index",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveOwnersCount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveStake",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTroveStatus",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "hasPendingRewards",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "increaseTroveColl",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_collIncrease",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "increaseTroveDebt",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_debtIncrease",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "lastFeeOperationTime",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lastPFUSDDebtError_Redistribution",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lastPFWETHError_Redistribution",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "liquidate",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "liquidateTroves",
+      "inputs": [
+        {
+          "name": "_n",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pefiStaking",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPEFIStaking"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pefiToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPEFIToken"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "pfusdToken",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPFUSDToken"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "priceFeed",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IPriceFeed"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "redeemCollateral",
+      "inputs": [
+        {
+          "name": "_PFUSDamount",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_firstRedemptionHint",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_upperPartialRedemptionHint",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_lowerPartialRedemptionHint",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_partialRedemptionHintNICR",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_maxIterations",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_maxFeePercentage",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "removeStake",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "rewardSnapshots",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "PFWETHCollateral",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "PFUSDDebt",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "setAddresses",
+      "inputs": [
+        {
+          "name": "_borrowerOperationsAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_activePoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_defaultPoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_stabilityPoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_gasPoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_collSurplusPoolAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_priceFeedAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_pfusdTokenAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_sortedTrovesAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_pefiTokenAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_pefiStakingAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_PFWETHToken",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "setTroveStatus",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_num",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "sortedTroves",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ISortedTroves"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "stabilityPool",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract IStabilityPool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "totalCollateralSnapshot",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "totalStakes",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "totalStakesSnapshot",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "troveOwners",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "troves",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "debt",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "coll",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "stake",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "status",
+          "type": "uint8",
+          "internalType": "enum ITroveManager.Status"
+        },
+        {
+          "name": "arrayIndex",
+          "type": "uint128",
+          "internalType": "uint128"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "updateStakeAndTotalStakes",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "updateTroveRewardSnapshots",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "BaseRateUpdated",
+      "inputs": [
+        {
+          "name": "_baseRate",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc454ee9b76c52f782a256af821b857ca6e125d1e3333bcede402fec2bed9600c"
+    },
+    {
+      "type": "event",
+      "name": "LTermsUpdated",
+      "inputs": [
+        {
+          "name": "_L_PFWETH",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_L_PFUSDDebt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x9f8bc8ab0daf5bceef75ecfd2085d1fcc6548c657ea970d9a23a60610d0737e3"
+    },
+    {
+      "type": "event",
+      "name": "LastFeeOpTimeUpdated",
+      "inputs": [
+        {
+          "name": "_lastFeeOpTime",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x860f8d2f0c74dd487e89e2883e3b25b8159ce1e1b3433a291cba7b82c508f3bc"
+    },
+    {
+      "type": "event",
+      "name": "Liquidation",
+      "inputs": [
+        {
+          "name": "_liquidatedDebt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_liquidatedColl",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_collGasCompensation",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_PFUSDGasCompensation",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x4152c73dd2614c4f9fc35e8c9cf16013cd588c75b49a4c1673ecffdcbcda9403"
+    },
+    {
+      "type": "event",
+      "name": "OwnershipTransferred",
+      "inputs": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    {
+      "type": "event",
+      "name": "Redemption",
+      "inputs": [
+        {
+          "name": "_attemptedPFUSDAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_actualPFUSDAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_PFWETHSent",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_PFWETHFee",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x43a3f4082a4dbc33d78e317d2497d3a730bc7fc3574159dcea1056e62e5d9ad8"
+    },
+    {
+      "type": "event",
+      "name": "SystemSnapshotsUpdated",
+      "inputs": [
+        {
+          "name": "_totalStakesSnapshot",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_totalCollateralSnapshot",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x51bf4c63ec3cba9d03d43238abbdd979dd91bd16d9895c74ceea9118c7baaf60"
+    },
+    {
+      "type": "event",
+      "name": "TotalStakesUpdated",
+      "inputs": [
+        {
+          "name": "_newTotalStakes",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x6bac5e0eb3c44eb03a60ab11ec3a2c051771616aecadbcfff2630aabae520382"
+    },
+    {
+      "type": "event",
+      "name": "TroveIndexUpdated",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        },
+        {
+          "name": "_newIndex",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x02b04ae5f7be9ca7c103293a2aa15f3c339d15d6eda53b721fef7b0e609c831a"
+    },
+    {
+      "type": "event",
+      "name": "TroveLiquidated",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_debt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_coll",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "operation",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "enum ITroveManager.TroveManagerOperation"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xea67486ed7ebe3eea8ab3390efd4a3c8aae48be5bea27df104a8af786c408434"
+    },
+    {
+      "type": "event",
+      "name": "TroveSnapshotsUpdated",
+      "inputs": [
+        {
+          "name": "_L_PFWETH",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_L_PFUSDDebt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc437f324d85e369394148dd9d62f98f534b382e01ed3dd2eb98138fb6d3ab49a"
+    },
+    {
+      "type": "event",
+      "name": "TroveUpdated",
+      "inputs": [
+        {
+          "name": "_borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "_debt",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "_coll",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "stake",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "operation",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "enum ITroveManager.TroveManagerOperation"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xc3770d654ed33aeea6bf11ac8ef05d02a6a04ed4686dd2f624d853bbec43cc8b"
+    },
+    {
+      "type": "error",
+      "name": "AccountCannotBeZeroAddress",
+      "inputs": [],
+      "signature": "0x6847bb66"
+    },
+    {
+      "type": "error",
+      "name": "AccountCodeSizeCannotBeZero",
+      "inputs": [],
+      "signature": "0xeaf4b550"
+    },
+    {
+      "type": "error",
+      "name": "FeeExceededProvidedMaximum",
+      "inputs": [],
+      "signature": "0x798080d6"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_NewOwnerCannotBeAddressZero",
+      "inputs": [],
+      "signature": "0x7b30466f"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_SenderIsNotOwner",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "signature": "0x37c14b45"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_AmountMustBeGreaterThanZero",
+      "inputs": [],
+      "signature": "0xf86228e3"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_CalldataAddressArrayMustNotBeEmpty",
+      "inputs": [],
+      "signature": "0x359f3880"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_CallerIsNotBorrowerOperationsContract",
+      "inputs": [],
+      "signature": "0x21b23bee"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_CannotRedeemWhenTCRltMCR",
+      "inputs": [],
+      "signature": "0x4446394a"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_FeeWouldEatUpAllReturnedCollateral",
+      "inputs": [],
+      "signature": "0x5c6e0052"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_MaxFeePercentageMustBeBetweenFloorAnd100",
+      "inputs": [],
+      "signature": "0x3f4d64ad"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_NothingToLiquidate",
+      "inputs": [],
+      "signature": "0xc32b9a0b"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_OnlyOneTroveInSystem",
+      "inputs": [],
+      "signature": "0x1cb3e84b"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_RequestedRedemptionAmountMustBeLteUserPFUSDTokenBalance",
+      "inputs": [],
+      "signature": "0xeacc1521"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_TroveDoesNotExistOrClosed",
+      "inputs": [],
+      "signature": "0xbb2c4ca9"
+    },
+    {
+      "type": "error",
+      "name": "TroveManager_UnableToRedeemAnyAmount",
+      "inputs": [],
+      "signature": "0xaf0eacc7"
+    }
+  ],
+  "methodIdentifiers": {
+    "L_PFUSDDebt()": "107b3834",
+    "L_PFWETH()": "290884e0",
+    "PFWETHToken()": "a5250e8d",
+    "activePool()": "7f7dde4a",
+    "addTroveOwnerToArray(address)": "15d549f1",
+    "applyPendingRewards(address)": "0b076557",
+    "baseRate()": "1f68f20a",
+    "batchLiquidateTroves(address[])": "1e8b1c2b",
+    "borrowerOperationsAddress()": "b7f8cf9b",
+    "checkRecoveryMode(uint256)": "4e443d9e",
+    "closeTrove(address)": "cbd138ae",
+    "collSurplusPool()": "cda775f9",
+    "decayBaseRateFromBorrowing()": "5dba4c4a",
+    "decreaseTroveColl(address,uint256)": "d3d6f843",
+    "decreaseTroveDebt(address,uint256)": "12610e92",
+    "defaultPool()": "3cc74225",
+    "gasPoolAddress()": "fe9d0323",
+    "getBorrowingFee(uint256)": "631203b0",
+    "getBorrowingFeeWithDecay(uint256)": "477d66cf",
+    "getBorrowingRate()": "f36b2425",
+    "getBorrowingRateWithDecay()": "66ca4a21",
+    "getCurrentICR(address,uint256)": "d293c710",
+    "getEntireDebtAndColl(address)": "b91af97c",
+    "getEntireSystemColl()": "887105d3",
+    "getEntireSystemDebt()": "795d26c3",
+    "getNominalICR(address)": "b0d8e181",
+    "getPendingPFUSDDebtReward(address)": "c968cf6a",
+    "getPendingPFWETHReward(address)": "51ea4463",
+    "getRedemptionFeeWithDecay(uint256)": "d5b35635",
+    "getRedemptionRate()": "2b11551a",
+    "getRedemptionRateWithDecay()": "c52861f2",
+    "getTCR(uint256)": "b82f263d",
+    "getTroveColl(address)": "480cd578",
+    "getTroveDebt(address)": "d66a2553",
+    "getTroveFromTroveOwnersArray(uint256)": "d9a72444",
+    "getTroveOwnersCount()": "49eefeee",
+    "getTroveStake(address)": "64cee260",
+    "getTroveStatus(address)": "21e37801",
+    "hasPendingRewards(address)": "e2ac77b0",
+    "increaseTroveColl(address,uint256)": "72423c17",
+    "increaseTroveDebt(address,uint256)": "9976cf45",
+    "lastFeeOperationTime()": "d380a37c",
+    "lastPFUSDDebtError_Redistribution()": "bfd93ff8",
+    "lastPFWETHError_Redistribution()": "890aded4",
+    "liquidate(address)": "2f865568",
+    "liquidateTroves(uint256)": "653d46e7",
+    "owner()": "8da5cb5b",
+    "pefiStaking()": "6e13b85a",
+    "pefiToken()": "d6549b68",
+    "pfusdToken()": "000479bb",
+    "priceFeed()": "741bef1a",
+    "redeemCollateral(uint256,address,address,address,uint256,uint256,uint256)": "bcd37526",
+    "removeStake(address)": "fe2ba848",
+    "renounceOwnership()": "715018a6",
+    "rewardSnapshots(address)": "1673c79a",
+    "setAddresses(address,address,address,address,address,address,address,address,address,address,address,address)": "734f622d",
+    "setTroveStatus(address,uint256)": "5d6b480f",
+    "sortedTroves()": "ae918754",
+    "stabilityPool()": "048c661d",
+    "totalCollateralSnapshot()": "96d711ff",
+    "totalStakes()": "bf9befb1",
+    "totalStakesSnapshot()": "807d138d",
+    "transferOwnership(address)": "f2fde38b",
+    "troveOwners(uint256)": "99043357",
+    "troves(address)": "febedc74",
+    "updateStakeAndTotalStakes(address)": "18f2817a",
+    "updateTroveRewardSnapshots(address)": "82fe3eb9"
+  }
+}

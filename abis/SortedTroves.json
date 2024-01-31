@@ -1,0 +1,547 @@
+{
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "borrowerOperationsAddress",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "contains",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "data",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "head",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "tail",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "maxSize",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "size",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "findInsertPosition",
+      "inputs": [
+        {
+          "name": "_NICR",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_prevId",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_nextId",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getFirst",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getLast",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getMaxSize",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getNext",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getPrev",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getSize",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "insert",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_NICR",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_prevId",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_nextId",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "isEmpty",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "isFull",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "reInsert",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_newNICR",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_prevId",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_nextId",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "remove",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "setParams",
+      "inputs": [
+        {
+          "name": "_size",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_troveManagerAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_borrowerOperationsAddress",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "troveManager",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "contract ITroveManager"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "validInsertPosition",
+      "inputs": [
+        {
+          "name": "_NICR",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "_prevId",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "_nextId",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "event",
+      "name": "NodeAdded",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        },
+        {
+          "name": "_NICR",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xe02b43adbee0c123de070a04554a71877a0007e2fc161466299cae3c094fe82f"
+    },
+    {
+      "type": "event",
+      "name": "NodeRemoved",
+      "inputs": [
+        {
+          "name": "_id",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0xcfc24166db4bb677e857cacabd1541fb2b30645021b27c5130419589b84db52b"
+    },
+    {
+      "type": "event",
+      "name": "OwnershipTransferred",
+      "inputs": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false,
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    {
+      "type": "error",
+      "name": "AccountCannotBeZeroAddress",
+      "inputs": [],
+      "signature": "0x6847bb66"
+    },
+    {
+      "type": "error",
+      "name": "AccountCodeSizeCannotBeZero",
+      "inputs": [],
+      "signature": "0xeaf4b550"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_NewOwnerCannotBeAddressZero",
+      "inputs": [],
+      "signature": "0x7b30466f"
+    },
+    {
+      "type": "error",
+      "name": "Ownable_SenderIsNotOwner",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "signature": "0x37c14b45"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_CallerIsNeitherBorrowerOperationsNorTroveManager",
+      "inputs": [],
+      "signature": "0x1eda70d5"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_CallerIsNotTroveManager",
+      "inputs": [],
+      "signature": "0xf732a4d5"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_IdCannotBeZero",
+      "inputs": [],
+      "signature": "0x57e69e28"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_ListAlreadyContainsNode",
+      "inputs": [],
+      "signature": "0x9915469b"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_ListDoesNotContainId",
+      "inputs": [],
+      "signature": "0x869273b0"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_ListIsFull",
+      "inputs": [],
+      "signature": "0xd24a12d2"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_NICRMustBePositive",
+      "inputs": [],
+      "signature": "0x8a0ecb40"
+    },
+    {
+      "type": "error",
+      "name": "SortedTroves_SizeCannotBeZero",
+      "inputs": [],
+      "signature": "0x462091f1"
+    }
+  ],
+  "methodIdentifiers": {
+    "borrowerOperationsAddress()": "b7f8cf9b",
+    "contains(address)": "5dbe47e8",
+    "data()": "73d4a13a",
+    "findInsertPosition(uint256,address,address)": "416980dc",
+    "getFirst()": "1e223143",
+    "getLast()": "4d622831",
+    "getMaxSize()": "63e1d57c",
+    "getNext(address)": "765e0159",
+    "getPrev(address)": "b72703ac",
+    "getSize()": "de8fa431",
+    "insert(address,uint256,address,address)": "46f7cf87",
+    "isEmpty()": "681fe70c",
+    "isFull()": "babd3d9a",
+    "owner()": "8da5cb5b",
+    "reInsert(address,uint256,address,address)": "2be21260",
+    "remove(address)": "29092d0e",
+    "renounceOwnership()": "715018a6",
+    "setParams(uint256,address,address)": "f376d798",
+    "transferOwnership(address)": "f2fde38b",
+    "troveManager()": "3d83908a",
+    "validInsertPosition(uint256,address,address)": "3fce12d5"
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "168587773": {
+        "activePool": {
+            "abi": "/abis/ActivePool.json",
+            "address": "0x2f5d53Eb205474f80ae7e19328f283de17e9Abfc"
+        },
+        "borrowerOperations": {
+            "abi": "/abis/BorrowerOperations.json",
+            "address": "0xD175B2E166eF556561477B5e733297DdEcd2215F"
+        },
+        "collSurplusPool": {
+            "abi": "/abis/CollSurplusPool.json",
+            "address": "0x2C066d2A085eD4f41090124A7865AeBD40F25f4D"
+        },
+        "communityIssuance": {
+            "abi": "/abis/CommunityIssuance.json",
+            "address": "0x9d2B0de77acd5ed111cfFDf95E9Ce8b7E658BDc5"
+        },
+        "defaultPool": {
+            "abi": "/abis/DefaultPool.json",
+            "address": "0x29b610DD685Bb35a23C2528905394F1b98c1A6e2"
+        },
+        "gasPool": {
+            "address": "0xA5deFC92Fe932d86Db5AEd1A02dc62753c43630b"
+        },
+        "hintHelpers": {
+            "abi": "/abis/HintHelpers.json",
+            "address": "0x3cB3094c37DA0024480fE54FaD8Baa9Cb365e57B"
+        },
+        "pefiStaking": {
+            "abi": "/abis/PEFIStaking.json",
+            "address": "0x04b752f33847d0D92993549409F19031585331CF"
+        },
+        "pefiToken": {
+            "abi": "/abis/PEFIToken.json",
+            "address": "0x68CC615e3032b87Fd72C2C9A541868d14b92fd70"
+        },
+        "pfusdToken": {
+            "abi": "/abis/PFUSDToken.json",
+            "address": "0xa7815317A14Ce3210228B077f4cf0902Bab1843B"
+        },
+        "multiTroveGetter": {
+            "abi": "/abis/MultiTroveGetter.json",
+            "address": "0x6D74970162b117dAecB3f4152C3d551526Cc3FBf"
+        },
+        "percentFinanceWETH": {
+            "abi": "/abis/PercentFinanceWETH.json",
+            "address": "0xF27B7A959BFf241e08900732b36C6c87aAf40862"
+        },
+        "priceFeed": {
+            "abi": "/abis/PriceFeed.json",
+            "address": "0xa20B4c49c01cd8510433109d7Acb121Eb4782775"
+        },
+        "sortedTroves": {
+            "abi": "/abis/SortedTroves.json",
+            "address": "0x5f276883A242f1520748A17C0114592853F1830e"
+        },
+        "stabilityPool": {
+            "abi": "/abis/StabilityPool.json",
+            "address": "0x53F63048551Af2999A4731177794Bd3d7cCc210E"
+        },
+        "troveManager": {
+            "abi": "/abis/TroveManager.json",
+            "address": "0x022a4e5a986E53008f6943A4E0186d8298977696"
+        }
+    }
+}

@@ -2,66 +2,66 @@
     "168587773": {
         "activePool": {
             "abi": "/abis/ActivePool.json",
-            "address": "0x3798C3588503E51833D04D32E52766D1a09073B2"
+            "address": "0x094c75751BBf1b691783A455d7D95Be34bB6692F"
         },
         "borrowerOperations": {
             "abi": "/abis/BorrowerOperations.json",
-            "address": "0x860010e88B599AE94C93602Ff1d308Bf080F7b6B"
+            "address": "0x407366f2c5372BbEc1dad431EF2fA74c40E1262c"
         },
         "collSurplusPool": {
             "abi": "/abis/CollSurplusPool.json",
-            "address": "0x5402D0A502646FB24327527d2C00E4FDB4635Ca6"
+            "address": "0x88bd0E4aD0b0Ee4f35B328AEB5434cb71126Fe87"
         },
         "communityIssuance": {
             "abi": "/abis/CommunityIssuance.json",
-            "address": "0xbCB946a4dD0659640E8F55d9fdeE069512D2E6a4"
+            "address": "0x8e880da2Fa396d662210e3bE02FD9432124a56c9"
         },
         "defaultPool": {
             "abi": "/abis/DefaultPool.json",
-            "address": "0x20A2E4D5b510ce7f839354aF9c4848E32891d8C8"
+            "address": "0x12bE77aFf71719992Aac86a7677142f5c8127232"
         },
         "gasPool": {
-            "address": "0xa8699CC6b61C998c44e40356aCD2E334943B7cF6"
+            "address": "0x6fBCe80D44e017067e56BD7e7285739d2D98bAF8"
         },
         "hintHelpers": {
             "abi": "/abis/HintHelpers.json",
-            "address": "0x449d732EdEA421f660bF19517017f72b40688CFb"
+            "address": "0x302BAb72769a81f8d39eE6BB509A7700cC7b223A"
         },
         "pefiStaking": {
             "abi": "/abis/PEFIStaking.json",
-            "address": "0x2Bb96229eA7239c11b15b4A74D73eEF65e433137"
+            "address": "0x0Fc3293a77F19414348427410c501F453307E2B6"
         },
         "pefiToken": {
             "abi": "/abis/PEFIToken.json",
-            "address": "0x5919E7C649DcF82325BA2AdfA13BDD351a863041"
+            "address": "0xd46aE9CB16D675b396799A4c5717494D6Cb87538"
         },
         "pfusdToken": {
             "abi": "/abis/PFUSDToken.json",
-            "address": "0xa419d2A46a413Dd47f69272ECcBb424aC2AbDeFF"
+            "address": "0x3593Cc63D00A611311Bf395B34d8249b8b7577D0"
         },
         "multiTroveGetter": {
             "abi": "/abis/MultiTroveGetter.json",
-            "address": "0x8Fe219f623DDC7ad28c3363112679BBBb0Db748B"
+            "address": "0x746e9e12773C95A31C4403d2AF60339a2A14cB2a"
         },
         "percentFinanceWETH": {
             "abi": "/abis/PercentFinanceWETH.json",
-            "address": "0xBd72C7584C56f407B079Dd1E9c261E2EF0b0f40a"
+            "address": "0x83E9b5e81aE829829fd31344178a3D8dAD0344Dc"
         },
         "priceFeed": {
             "abi": "/abis/PriceFeed.json",
-            "address": "0x3329FFf880fa4a84da3098Cf01b81ABc11Bab448"
+            "address": "0x80C666d527D56AFD8427e3aA593de31dDE68C2Cf"
         },
         "sortedTroves": {
             "abi": "/abis/SortedTroves.json",
-            "address": "0xEC52934394191FCb5Dbf78A8b9815D365bb8EE96"
+            "address": "0xFee4FaA1522d5A0E7016aD2d5f68d4df5E6cB4b6"
         },
         "stabilityPool": {
             "abi": "/abis/StabilityPool.json",
-            "address": "0xe512DD7642D4aA38fb0b1b6b1537246A0d46510a"
+            "address": "0x1A87BD9AD49aeC09947B7e3AE1731976C4175fBe"
         },
         "troveManager": {
             "abi": "/abis/TroveManager.json",
-            "address": "0xC8F5Bb0317dA4957Aa223F46e5f8a8Cd76A3B5E8"
+            "address": "0x4ED698e10F035b4f1de659069139a16A529e1759"
         }
     }
 }
